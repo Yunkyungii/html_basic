@@ -1,0 +1,45 @@
+.top {
+    border-bottom: 1px solid #ddd;
+}
+
+.top .inner {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.top span {
+    margin-left: auto;
+
+}
+
+.header {
+    line-height: 100px;
+    background: #ddd;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+
+.section {
+    padding-top: 30px;
+}
+
+.section .inner {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.section .inner ul {
+    display: flex;
+    margin: 20px 0;
+    font-size: 20px;
+}
