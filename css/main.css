@@ -3,20 +3,20 @@
 }
 
 .top .inner {
-    display: flex;
     width: 1200px;
     margin: 0 auto;
     line-height: 30px;
 }
 
-.top span {
-    margin-left: auto;
+.top .inner ul {
+    display: flex;
 
 }
 
 .header {
     line-height: 100px;
-    background: #ddd;
+    border-bottom: 1px dotted #ddd;
+
 
 }
 
@@ -35,11 +35,29 @@ h1 {
 .section .inner {
     width: 1200px;
     margin: 0 auto;
+}
 
+.section h2 {
+    display: block;
+    margin: 20px 30px 20px 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: darkolivegreen;
+    background: #f9f9f9;
 }
 
 .section .inner ul {
+    display: block;
+    display: flex;
+    margin: 20px 0;
+    font-size: 16px;
+
+}
+
+.section ul {
+    display: block;
     display: flex;
     margin: 20px 0;
     font-size: 20px;
+    gap: 20px;
 }
