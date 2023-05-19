@@ -1,0 +1,49 @@
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: tomato;
+
+    width: 300px;
+    z-index: 1;
+}
+
+/* 겹침의 흐름을 바꿀 때, z-index를 사용
+같은 숫자더라도 뒤의 순서가 우선 */
+img {
+    position: relative;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+
+}
+
+/* 떠오른다, 쪼그라든다, 기준이 없다 */
+
+.popup2 {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background: tomato;
+
+    width: 300px;
+    z-index: 1;
+}
+
+.popup3 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    background: tomato;
+
+    width: 300px;
+}

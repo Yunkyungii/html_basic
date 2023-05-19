@@ -15,6 +15,7 @@
 }
 
 /* relative 이미 생김 */
+/* absolute, fixed 다 기준이 됨..? */
 
 #mainVisual .slick-arrow {
     position: absolute;
