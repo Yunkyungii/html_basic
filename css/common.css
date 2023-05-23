@@ -91,6 +91,7 @@ video {
     box-sizing: border-box;
 }
 
+/* 없으면 이미지가 튀어나옴 */
 *::before,
 *::after {
     box-sizing: border-box;

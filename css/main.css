@@ -30,8 +30,10 @@ h1 {
 }
 
 .section {
-    padding-top: 30px;
+    padding: 50px 0;
 }
+
+
 
 .section .inner {
     width: 1200px;
