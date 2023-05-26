@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="./css/common.css">
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/main.css">
+
 </head>
 
 <body>
+
 
     <div class="top">
         <div class="inner">
@@ -29,8 +31,37 @@
 
 
     </header>
+
+
+
     <section class="section">
         <div class="inner">
+            <hr>
+            <!-- <i class="xi-heart"></i> -->
+            <style>
+                hr {
+                    border: none;
+                    border-top: 1px solid #ddd;
+                    position: relative;
+                    overflow: visible;
+                }
+
+                hr::before {
+                    content: "\ea10";
+                    font-family: xeicon;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+
+                    padding: 10px;
+                    color: #ddd;
+                    border: 1px solid #ddd;
+                    border-radius: 50%;
+                    background: #fff;
+                }
+            </style>
+
             <div class="box">
                 <h2>요소의 가로배치</h2>
                 <ul>
@@ -78,7 +109,7 @@
 
                 </ul>
             </div>
-
+            <hr>
             <div class="box">
                 <h2>background</h2>
                 <ul>
@@ -117,13 +148,33 @@
 
                 </ul>
             </div>
+            <div class="box">
+                <h2> css layout header part</h2>
+                <ul>
+                    <li><a href="./doc/header02.html">header layout 1200 width
+                            - 반응형 : 23.05.26
+                        </a></li>
+                </ul>
+                <ul>
+                    <li><a href="./doc/header03.html">header layout 1200 width
+                            : 23.05.26
+                        </a></li>
+                </ul>
+                <ul>
+                    <li><a href="./doc/header04.html">header layout 1200 width
+                            : 23.05.26
+                        </a></li>
+                </ul>
+            </div>
         </div>
 
 
 
 
 
+
         <div class="inner">
+            <hr>
             <div class="box">
                 <h2>기본 실습 layout</h2>
                 <ul>
@@ -138,6 +189,14 @@
                     <li><i class="xi-check-circle"></i></li>
                     <li><a href="./doc/product01.html" target="
                         ">제품 슬라이드 : 23.05.19</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h2>Tab menu 01 - display: none, block으로 공간으로 제어한다.</h2>
+                <ul>
+                    <li><i class="xi-check-circle"></i></li>
+                    <li><a href="./doc/tab01.html" target="
+                        "> display: none, block tab menu: 23.05.25</a></li>
                 </ul>
             </div>
             <div class="box">

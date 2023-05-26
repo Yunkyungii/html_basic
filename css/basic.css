@@ -4,6 +4,10 @@
     padding: 0 15px;
 }
 
+h1 {
+    font-size: 0;
+}
+
 .sec {
     padding: 100px 0;
 }
@@ -36,8 +40,14 @@ body {
 
 #header .inner {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     height: 100px;
+    line-height: 100px;
+}
+
+/* line height 는 block일 때 적용 */
+#header a {
+    display: block;
 }
 
 #header .gnb {

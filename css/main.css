@@ -6,6 +6,7 @@
     width: 1200px;
     margin: 0 auto;
     line-height: 30px;
+    color: #151515;
 }
 
 .top .inner ul {
@@ -16,17 +17,17 @@
 .header {
     line-height: 100px;
     border-bottom: 1px solid #ddd;
-    background: rgb(108, 170, 0);
+    background: #ddd;
 
 
 }
 
 h1 {
+    position: relative;
     text-align: center;
     font-size: 40px;
     font-weight: 900;
-    color: #f9f9f9;
-
+    color: #151515;
 
 }
 
@@ -64,6 +65,7 @@ h1 {
     margin: 20px 0;
     font-size: 20px;
     gap: 20px;
+    color: #151515;
 }
 
 .section ul:hover {
